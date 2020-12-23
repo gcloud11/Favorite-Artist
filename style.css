@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+* {
+   box-sizing: border-box;
+   /* font-family: 'Special Elite', cursive; */
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;  
+}
+
+.nav a:hover {
+   background-color: rgba(255, 255, 255, .3); 
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .22);
+    background-image: url(Images/header1.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: rbg(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+h1 {
+    color: white;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    padding-left: 20px;
+    font-family: 'Metal Mania', cursive;
+    
+}
+/*This gives space on top, right, bottom and left*/
+.content-section {
+    margin: 1em;
+    padding: 10px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section-about {
+    padding: 10px;
+}
+
+.section-home {
+    padding: 0 30;
+}
+
+.footer-about img {
+    border-radius: 30px;
+}
+
+.band-name-large {    
+    font-size: 60px
+}
+
+.x-section {
+   max-width: 900px; 
+   margin: 0 auto;
+   padding: 0 1.5em;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Metal Mania', cursive;
+}
+
+.about-band-img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+/* Footer Styling */
+
+.footer-about {
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;
+}
+
+.footer-about-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-about-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0.2em;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+/* Home page button */
+
+.btn-header {
+    margin: .5em 15% .2em 15%;
+    color: white;
+    border: 2px solid #209cdb;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 20 auto;
+    display: block;
+
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+      
+}
+
+.btn-play {
+    /* Only blcok-level elements can have an auto margin. Make this button a block level element. 
+    Buttons are in-line elements*/
+    margin: 0 auto;
+    display: block;
+    color: #209cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+/*Tour Row*/
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    padding-right: .5em;
+    /*inline elements cannot have a width property
+    width: 1000px;
+    This below helps this. This allows for spacing in between spanned elements like this.
+    inlin-block automat... puts extra spacing around these elements */
+    display: inline-block;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 38%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+/*Shop page styles*/
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    height: 80px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column {
+    /* This aligns the content in each row (not sure why the column headers didnt move) to be horizontally centered. 
+    This lines them all up then...*/
+    display: flex;
+    /* This centers all the items in each row */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    /* Flex-box does not automat... have spaceing implemented in them and can use this if wanting to add %s to equal exactlly 100% */
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+}
+
+.cart-quanity {
+    width: 35%;
+}
+
+.cart-item-title {
+    
+}
