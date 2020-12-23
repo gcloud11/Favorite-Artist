@@ -293,6 +293,9 @@ h1 {
 
 .cart-price {
     width: 20%;
+    /* A little less than 20px */
+    font-size: 1.2em;
+    color: #333;
 }
 
 .cart-quanity {
@@ -300,5 +303,39 @@ h1 {
 }
 
 .cart-item-title {
-    
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    /* height automatically adjusts to the width */
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    /* padding: 0; */
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
 }
