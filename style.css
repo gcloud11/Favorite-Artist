@@ -277,7 +277,7 @@ h1 {
     /* This centers all the items in each row */
     align-items: center;
     border-bottom: 1px solid black;
-    margin-right: 1.5em;
+    margin-right: 1em;
     padding-bottom: 10px;
     margin-top: 10px;
 }
@@ -298,9 +298,6 @@ h1 {
     color: #333;
 }
 
-.cart-quanity {
-    width: 35%;
-}
 
 .cart-item-title {
     color: #333;
@@ -338,4 +335,16 @@ h1 {
     text-align: center;
     font-size: 1.2em;
     margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-quantity {
+    width: 23%;
 }
