@@ -7,8 +7,8 @@ This static application was created to practice and showcase some HTML5 & CSS3 s
   
   ## Technologies
 
-* [HTML5](https://handlebarsjs.com/) - Handlebar templates
-* [CSS3](https://expressjs.com/) - node.js framework
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Hypertext Markup Language 
+* [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) - Cascading Style Sheet
 
 
 ## Installation
