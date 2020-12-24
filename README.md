@@ -27,7 +27,7 @@ Git clone repositiory to local machine:
 
 HTTPS:
 ```
-git clone https://github.com/gcloud11/Eat-Da-Burger.git
+https://github.com/gcloud11/Favorite-Artist.git
 ```
 SSH:
 ```
