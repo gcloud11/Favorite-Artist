@@ -37,6 +37,9 @@ Open application:
 ```
 rigth-click in any .html file
 open integrated terminal to see application
-
+```
 
 ## Visuals
+
+<img width="1114" alt="Screen Shot 2020-12-24 at 3 14 09 PM" src="https://user-images.githubusercontent.com/67169488/103106426-08b32c80-45fb-11eb-85d2-8a6f4542b056.png">
+
