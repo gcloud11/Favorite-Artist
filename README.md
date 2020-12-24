@@ -2,7 +2,7 @@
 
 This static application was created to practice and showcase some HTML5 & CSS3 skills. 
 
-  [My-Favorite-Artist!](https://gcloud11.github.io/Favorite-Artist/) 
+  [My-Favorite-Artist! ♥️ ](https://gcloud11.github.io/Favorite-Artist/) 
   
   
   ## Technologies
