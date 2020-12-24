@@ -2,7 +2,7 @@
 
 This static application was created to practice and showcase some HTML5 & CSS3 skills. 
 
-  [Eat-da-🍔  here!](https://cryptic-sierra-08206.herokuapp.com/) 
+  [My-Favorite-Artist!](https://cryptic-sierra-08206.herokuapp.com/) 
   
   
   ## Technologies
@@ -31,7 +31,7 @@ https://github.com/gcloud11/Favorite-Artist.git
 ```
 SSH:
 ```
-git clone git@github.com:gcloud11/Eat-Da-Burger.git
+git@github.com:gcloud11/Favorite-Artist.git
 ```
 Open application:
 ```
