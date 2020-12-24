@@ -348,3 +348,27 @@ h1 {
 .cart-quantity {
     width: 23%;
 }
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 10px;
+}
+
+.cart-total-price {
+    color: black;
+    font-size: 1.1em;
+}
+/*Since buttons are in-line, to be able to move this button left or right, must make the button a block-like element*/
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.5em;
+}
